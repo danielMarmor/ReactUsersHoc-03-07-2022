@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Post from './components/Post';
 import { BrowserRouter, Route } from 'react-router-dom';
+import { UsersList } from './components/UsersList';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/about' component={About} />
           <Route path='/posts/:post_id' component={Post} />
+          <Route path='/users/' component={UsersList} />
         </header>
       </div>
     </BrowserRouter>

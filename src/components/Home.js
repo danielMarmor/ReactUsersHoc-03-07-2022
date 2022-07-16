@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 import Pokeball from './../pokeball.png'
+import Rectangle from './Rectangle';
 
 class Home extends Component {
     state = {
